@@ -1,7 +1,16 @@
-/* Add a black background color to the top navigation */
+
+body {
+  margin: 0;
+
+}
+  
+  /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: sticky;
+    top: 0;
+  
   }
   
   /* Style the links inside the navigation bar */
@@ -25,3 +34,20 @@
     background-color: #d65547;
     color: white;
   }
+  .logo { 
+    float: right;
+    width: 50px;
+    height: 48px
+    
+}
+ .header  {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+  
+ }
+ .maintext {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+ }

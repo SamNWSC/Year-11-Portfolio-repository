@@ -50,4 +50,59 @@ body {
  .maintext {
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
+  float: left;
+  padding: 50px;
+  background-color: #ddd;
+  border-radius: 5px;
  }
+ .textimageright {
+  float: right;
+  align-self: center;
+  width: 450px;
+  height: 225px;
+ }
+  .textimageleft {
+    float: left;
+    align-self: center;
+    width: 450px;
+    height: 225px;
+    
+  
+  
+ }
+ .flexcontainer {
+display: flex;
+
+ }
+.maintextr {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  float: right;
+  padding: 50px;
+  background-color: #ddd;
+  border-radius: 5px;
+  text-wrap: right;
+  
+}
+.imageblock img {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -2;
+}
+.centered {
+  position: absolute;
+  top: 150px;
+  left: 660px;
+  text-align: center;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.765);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  z-index: -1;
+}
+.homeimage {
+  width: 1296px;
+  height: 250px;
+}

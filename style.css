@@ -1,7 +1,9 @@
 
+
 body {
   margin: 0;
-
+  background: rgb(169,169,169);
+  background: linear-gradient(171deg, rgb(224, 224, 224) 0%, rgb(70, 70, 69) 100%);
 }
   
   /* Add a black background color to the top navigation */
@@ -53,7 +55,8 @@ body {
   float: left;
   padding: 50px;
   background-color: #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
+  margin-left: 10px;
  }
  .textimageright {
   float: right;
@@ -80,7 +83,7 @@ display: flex;
   float: right;
   padding: 50px;
   background-color: #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   text-wrap: right;
   
 }
@@ -105,4 +108,18 @@ display: flex;
 .homeimage {
   width: 1296px;
   height: 250px;
+}
+.column {
+  margin: 10px;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -1,10 +1,13 @@
 
 
 body {
+  height: 100vh;
   margin: 0;
-  background: rgb(169,169,169);
   background: linear-gradient(171deg, rgb(224, 224, 224) 0%, rgb(70, 70, 69) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the gradient fixed */
 }
+
   
   /* Add a black background color to the top navigation */
 .topnav {
@@ -122,4 +125,18 @@ display: flex;
   content: "";
   display: table;
   clear: both;
+}
+.contact-info {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add space between image and text */
+}
+.contact-info a {
+  text-decoration: none; /* Removes underline */
+  color:  #d65547; /* Default email color */
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: #642720; /* Changes color on hover */
 }

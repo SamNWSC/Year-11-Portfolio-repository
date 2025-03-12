@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     position: sticky;
     top: 0;
+    z-index: 1000;
   
   }
   
@@ -75,11 +76,23 @@ body {
     
   
   
- }
- .flexcontainer {
+}
+.flexcontainer {
 display: flex;
+gap:10px;
+align-items: center;
+align-content: center;
+justify-content: center;
+transition: 0.3s;
+position: relative;
+z-index: 1;
+
 
  }
+.flexcontainer:hover { 
+  transform: scale(1.05);
+  
+}
 .maintextr {
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
@@ -118,8 +131,12 @@ display: flex;
   width: 30%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
-}
+  transform: 0.3s;
 
+}
+.column:hover {
+  transform: scale(1.05);
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";

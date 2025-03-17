@@ -53,6 +53,17 @@ body {
 
   
  }
+ .subheader  {
+  font-size: 20px;
+  text-align:left;
+  font-family: 'Times New Roman', Times, serif;
+ }
+  .flexnormal {
+  display: flex;
+  gap:10px;
+}
+  
+
  .maintext {
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
@@ -68,7 +79,7 @@ body {
   width: 450px;
   height: 225px;
  }
-  .textimageleft {
+.textimageleft {
     float: left;
     align-self: center;
     width: 450px;
@@ -76,6 +87,17 @@ body {
     
   
   
+}
+.textimagecenter {
+  align-self: center;
+  float: center;
+  align-items: center;
+  width: 450px;
+  height: 225px;
+  margin:10px
+  
+
+
 }
 .flexcontainer {
 display: flex;
@@ -121,6 +143,8 @@ z-index: 1;
   font-family: 'Times New Roman', Times, serif;
   z-index: -1;
 }
+
+
 .homeimage {
   width: 1296px;
   height: 250px;
@@ -156,4 +180,8 @@ z-index: 1;
 
 .contact-info a:hover {
   color: #642720; /* Changes color on hover */
+}
+
+.bigdiv {
+  margin-top: 150px;
 }
